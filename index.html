@@ -172,6 +172,7 @@
                 <a class="hover:text-secondary transition-colors duration-300" href="#espacio" aria-label="Sección El Espacio">El Espacio</a>
                 <a class="hover:text-secondary transition-colors duration-300" href="#equipo" aria-label="Sección Equipo">Equipo</a>
                 <a class="hover:text-secondary transition-colors duration-300" href="#contacto" aria-label="Sección Contacto">Contacto</a>
+                <a class="hover:text-secondary transition-colors duration-300 text-secondary font-medium" href="agendar.html" aria-label="Sección Agendar Cita">Agendar</a>
             </div>
 
             <div class="flex items-center gap-4">
@@ -209,6 +210,7 @@
                 <a class="hover:text-secondary hover:translate-x-1 transition-all" href="#espacio">El Espacio</a>
                 <a class="hover:text-secondary hover:translate-x-1 transition-all" href="#equipo">Equipo</a>
                 <a class="hover:text-secondary hover:translate-x-1 transition-all" href="#contacto">Contacto</a>
+                <a class="text-secondary font-semibold hover:translate-x-1 transition-all" href="agendar.html">Agendar</a>
             </nav>
         </div>
 
@@ -239,10 +241,15 @@
                 Aesthetic Dentistry &amp; Family Care en el corazón de Coyoacán. Un oasis de calma para tu salud dental.
             </p>
             
-            <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+            <div class="flex flex-col md:flex-row flex-wrap items-center justify-center gap-6">
                 <a class="bg-secondary-fixed text-on-secondary-fixed rounded px-10 py-5 font-label-md text-label-md uppercase tracking-[0.2em] hover:bg-secondary hover:text-white transition-all duration-300 flex items-center gap-3 shadow-xl hover:shadow-2xl hover:-translate-y-0.5" href="https://wa.me/525622637829?text=Hola,%20vi%20su%20página%20web%20y%20me%20gustaría%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer" aria-label="Agenda tu cita por WhatsApp">
                     <span class="material-symbols-outlined text-2xl">chat</span>
                     <span>Agenda tu cita por WhatsApp</span>
+                </a>
+                
+                <a href="agendar.html" class="border-2 border-secondary text-secondary hover:bg-secondary hover:text-white rounded px-10 py-5 font-label-md text-label-md uppercase tracking-[0.2em] transition-all duration-300 flex items-center gap-3 shadow-xl hover:shadow-2xl hover:-translate-y-0.5 bg-transparent" aria-label="Agenda tu cita en línea">
+                    <span class="material-symbols-outlined text-2xl">calendar_month</span>
+                    <span>Agenda tu cita en línea</span>
                 </a>
                 
                 <a href="https://maps.app.goo.gl/NPGghRPWEpw9EvFH7" target="_blank" rel="noopener noreferrer" class="bg-white/10 backdrop-blur-md px-6 py-4 border border-white/20 text-white rounded flex items-center gap-3 hover:bg-white/20 transition-all shadow-lg" aria-label="Ver ubicación de Europa 33 en Google Maps">
@@ -637,6 +644,17 @@
                             <svg class="w-6 h-6 fill-current flex-shrink-0" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.888-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.412 0 6.556-5.332 11.891-11.888 11.891-2.01 0-3.991-.51-5.747-1.48l-6.246 1.689zm6.002-3.844l.43.255c1.608.955 3.461 1.46 5.388 1.46 5.501 0 9.976-4.479 9.976-9.984 0-2.669-1.037-5.176-2.922-7.062-1.887-1.886-4.393-2.923-7.062-2.923-5.507 0-9.99 4.483-9.99 9.987 0 2.12.674 4.189 1.946 5.922l.281.385-1.109 4.047 4.148-1.121z"></path></svg>
                             <span class="text-lg tracking-wide">Agendar por WhatsApp ahora</span>
                         </a>
+                        
+                        <div class="mt-8 bg-surface-container-low text-on-surface p-6 sm:p-8 rounded-xl border border-secondary/40 shadow-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+                            <div>
+                                <h3 class="font-headline-md text-headline-md text-primary mb-2">¿Prefieres agendar en línea?</h3>
+                                <p class="text-on-surface-variant text-body-md">Selecciona tu servicio, fecha y hora en nuestro sistema.</p>
+                            </div>
+                            <a href="agendar.html" class="bg-secondary text-white px-6 py-3.5 rounded font-label-md uppercase tracking-wider hover:bg-secondary-fixed hover:text-primary transition-all shadow-md flex items-center gap-2 flex-shrink-0" aria-label="Agendar cita en línea">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                                <span>Agendar cita en línea</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
